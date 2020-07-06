@@ -7,9 +7,11 @@ public class Player : MonoBehaviour
 {
     [SerializeField] float runSpeed = 5f;
     Rigidbody2D myRigidBody;
+    Animator myAnimator;
     private void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
     private void Update()
     {
@@ -22,6 +24,8 @@ public class Player : MonoBehaviour
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal");
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidBody.velocity.y);
         myRigidBody.velocity = playerVelocity;
+         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
+         myAnimator.SetBool("Running", playerHasHorizontalSpeed);
     }
 
     void FlipSprite()
