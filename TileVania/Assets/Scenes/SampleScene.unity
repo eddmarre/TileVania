@@ -2484,6 +2484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 265524628, guid: d0ce9ada7fb578649a49f063670be7e1, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7751005204914671590, guid: d0ce9ada7fb578649a49f063670be7e1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2564,3 +2568,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b628f284348684544b2ead3f31743f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 5
+  jumpSpeed: 28
