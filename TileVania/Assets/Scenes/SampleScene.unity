@@ -7831,6 +7831,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 642632705, guid: f04662dbe19421b43b4962c032e8bac7, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 57693638}
+    - target: {fileID: 642632706, guid: f04662dbe19421b43b4962c032e8bac7, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 7751005205079464568}
+    - target: {fileID: 816050248, guid: f04662dbe19421b43b4962c032e8bac7, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 57693638}
+    - target: {fileID: 816050249, guid: f04662dbe19421b43b4962c032e8bac7, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 7751005205079464568}
     - target: {fileID: 2146141839466791546, guid: f04662dbe19421b43b4962c032e8bac7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7901,6 +7917,16 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 7751005205079464568}
+    - target: {fileID: 4913233907072539332, guid: f04662dbe19421b43b4962c032e8bac7,
+        type: 3}
+      propertyPath: m_ChildCameras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913233907072539332, guid: f04662dbe19421b43b4962c032e8bac7,
+        type: 3}
+      propertyPath: m_AnimatedTarget
+      value: 
+      objectReference: {fileID: 7751005205079464569}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f04662dbe19421b43b4962c032e8bac7, type: 3}
 --- !u!1001 &7751005205079464565
@@ -8010,6 +8036,12 @@ MonoBehaviour:
 --- !u!4 &7751005205079464568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7751005204914671590, guid: d0ce9ada7fb578649a49f063670be7e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7751005205079464565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7751005205079464569 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7751005204914671585, guid: d0ce9ada7fb578649a49f063670be7e1,
     type: 3}
   m_PrefabInstance: {fileID: 7751005205079464565}
   m_PrefabAsset: {fileID: 0}
