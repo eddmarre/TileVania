@@ -5172,30 +5172,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6292d2b3afbc555499eb1d38bda37b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &724106544 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1500931495198064603, guid: 0d69aefc794946c4e80fa025ab9e7643,
-    type: 3}
-  m_PrefabInstance: {fileID: 1500931495547699947}
-  m_PrefabAsset: {fileID: 0}
+  coinPickUpSFX: {fileID: 0}
 --- !u!4 &724106545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1500931495198064602, guid: 0d69aefc794946c4e80fa025ab9e7643,
     type: 3}
   m_PrefabInstance: {fileID: 1500931495547699947}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &724106546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724106544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6292d2b3afbc555499eb1d38bda37b49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1061309542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8008,6 +7991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6292d2b3afbc555499eb1d38bda37b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinPickUpSFX: {fileID: 0}
 --- !u!1001 &1567556822
 PrefabInstance:
   m_ObjectHideFlags: 0
