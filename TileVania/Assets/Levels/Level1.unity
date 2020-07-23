@@ -8423,7 +8423,7 @@ PrefabInstance:
     - target: {fileID: 5186522609080145173, guid: 80b79f0bc8f05ed47966f07bd01484dd,
         type: 3}
       propertyPath: orthographic size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5186522609080145386, guid: 80b79f0bc8f05ed47966f07bd01484dd,
         type: 3}
@@ -8433,7 +8433,7 @@ PrefabInstance:
     - target: {fileID: 5186522609080145386, guid: 80b79f0bc8f05ed47966f07bd01484dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8536365
+      value: 0.69363666
       objectReference: {fileID: 0}
     - target: {fileID: 5186522609343813642, guid: 80b79f0bc8f05ed47966f07bd01484dd,
         type: 3}
